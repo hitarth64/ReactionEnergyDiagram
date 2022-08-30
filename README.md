@@ -22,3 +22,15 @@
 
 ### License:
 ```ReactionEnergyDiagram``` is released under the MIT License. 
+
+### Citation:
+- This package was developed to plot energy diagrams used for [our paper](https://arxiv.org/abs/2205.09007)
+- Therefore, to cite the package, please use the following bibtex:
+```
+@article{choubisa2022accelerated,
+  title={Accelerated chemical space search using a quantum-inspired cluster expansion approach},
+  author={Choubisa, Hitarth and Abed, Jehad and Mendoza, Douglas and Yao, Zhenpeng and Wang, Ziyun and Sutherland, Brandon and Aspuru-Guzik, Al{\'a}n and Sargent, Edward H},
+  journal={arXiv preprint arXiv:2205.09007},
+  year={2022}
+}
+```
