@@ -47,7 +47,7 @@ class ReactionEnergyDiagram():
         self.lastenergy = self.lastenergy + increment
         self.min = min(self.min, self.lastenergy)
     
-    def plot(self, xlabel='Reaction coordinate', ylabel='Reaction energy (eV)', LabelFontsize=14, TicksFontsize=12, save=True, filename='ReactionMechanism.png'):
+    def plot(self, xlabel='Reaction coordinate', ylabel='Reaction energy (eV)', LabelFontsize=14, TicksFontsize=12, save=True, filename='ReactionMechanism.png', transparent=True):
         """
         plots the diagram
         """
@@ -60,7 +60,7 @@ class ReactionEnergyDiagram():
             plt.legend(loc='upper left',fontsize=LabelFontsize)
             
         if save:
-            self.fig.savefig(filename,transparent=True,dpi=300)
+            self.fig.savefig(filename,transparent=transparent,dpi=300)
             
         return self.fig.show()
     
