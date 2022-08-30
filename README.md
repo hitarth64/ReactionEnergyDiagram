@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-- [How to cite](#citation)
 - [Installation](#how-to-install)
 - [Structure of the repository](#structure-of-the-repository)
 - [Usage](#usage)
 - [License](#license)
+- [How to cite](#citation)
 
 ### How to install: 
 - You can install the library as: ```pip install git+https://github.com/hitarth64/ReactionEnergyDiagram```
