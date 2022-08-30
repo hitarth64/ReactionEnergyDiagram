@@ -6,7 +6,7 @@ setuptools.setup(name='ReactionEnergyDiagaram',
       author='Hitarth Choubisa',
       author_email='hitarthc64@gmail.com',
       url='https://github.com/hitarth64/ReactionEnergyDiagram',
-      packages=setuptools.find_pacakges(),
+      packages=setuptools.find_packages(),
       install_requires=open("requirements.txt", "r").readlines(),
       classifiers = [
             "Programming Language :: Python :: 3",
