@@ -37,7 +37,7 @@
    The result is:
    ![SingleReaction](https://github.com/hitarth64/ReactionEnergyDiagram/blob/main/examples/ReactionMechanism.png)
 
-- You can also plot multiple reactions in the same diagram to compare different reaction energetics and pathways. Key is to use ```superimpose``` function
+- You can also plot multiple reactions in the same diagram to compare different reaction energetics and pathways. Key is to use ```superimpose``` function before inserting a new reaction.
    ```
    from ReactionEnergyDiagram import ReactionEnergyDiagram
    red = ReactionEnergyDiagram(spacing=0.3, epsilon=0.3, figsize=(10,7))
@@ -48,7 +48,7 @@
    red.add_step('*OOH', 1.508143,connect=True, linestyle='dotted')
    red.add_step(r'O$_2$', 2.308490,connect=True, linestyle='dotted')
    
-   red.superimpose()
+   red.superimpose() # resets the internal counters and pointers
    red.add_level('*',0)
    red.add_level(None, -1.140617,connect=True, linestyle='dotted', color='red', legend=r'RuCrMnSbO$_2$')
    red.add_level(None, 2.097738,connect=True, linestyle='dotted', color='red')
