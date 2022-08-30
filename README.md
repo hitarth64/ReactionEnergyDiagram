@@ -17,7 +17,7 @@
 ### Usage:
 - To use the ```ReactionEnergyDiagram``` package, simply import it as:
 
-```from ReactionEnergyDiagram import ReactionEnergyDiagram```
+   ```from ReactionEnergyDiagram import ReactionEnergyDiagram```
 
 - You can find some other examples in the examples folder
 
