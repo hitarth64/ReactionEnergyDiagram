@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [How to cite](#how-to-cite)
+- [How to cite](#citation)
 - [Installation](#how-to-install)
 - [Structure of the repository](#structure-of-the-repository)
 - [Usage](#usage)
