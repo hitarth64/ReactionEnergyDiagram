@@ -7,4 +7,5 @@ setup(name='ReactionEnergyDiagaram',
       author_email='hitarthc64@gmail.com',
       url='https://github.com/hitarth64/ReactionEnergyDiagram',
       packages=['ReactionEnergyDiagaram'],
+      install_requires=open("requirements.txt", "r").readlines(),
      )
