@@ -19,7 +19,7 @@
 
    ```from ReactionEnergyDiagram import ReactionEnergyDiagram```
    
-- An example for showing Oxygen Evolution Reaction (OER) over RuCrMnO$_2$ catalyst (from [here](https://arxiv.org/abs/2205.09007))
+- An example for showing Oxygen Evolution Reaction (OER) over RuCrMnO<sub>2</sub> catalyst 
    ```
    from ReactionEnergyDiagram import ReactionEnergyDiagram
    rde = ReactionEnergyDiagram(spacing=0.3, epsilon=0.3, figsize=(10,7))
