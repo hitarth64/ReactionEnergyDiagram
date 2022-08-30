@@ -35,7 +35,7 @@
    ```
    
    The result is:
-   [SingleeReaction](https://github.com/hitarth64/ReactionEnergyDiagram/blob/main/examples/ReactionMechanism.png)
+   ![SingleReaction](https://github.com/hitarth64/ReactionEnergyDiagram/blob/main/examples/ReactionMechanism.png)
 
 - You can find some other examples in the examples folder
 
