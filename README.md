@@ -1,4 +1,4 @@
-# ReactionEnergyDiagram: Plotting reaction mechanisms and reaction energetics using Python
+# ReactionEnergyDiagram [RED]: Plotting reaction mechanisms and reaction energetics using Python
 
 ## Table of Contents
 
