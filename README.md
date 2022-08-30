@@ -58,6 +58,8 @@
    # Save the figure as 'ReactionMechanism.png'
    rde.plot(save=False, filename='TwoReactionMechanisms.png')
    ```
+   The result is:
+   ![SingleReaction](https://github.com/hitarth64/ReactionEnergyDiagram/blob/main/examples/TwoReactionMechanisms.png)
 
 ### License:
 ```ReactionEnergyDiagram``` is released under the MIT License. 
