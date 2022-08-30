@@ -20,7 +20,7 @@ class ReactionEnergyDiagram():
         self.min = 0.0
         self.legend = False # takes a note if a legend is assigned to any
     
-    def add_level(self, label, increment, color='blue', connect=False, linestyle='--', legend=None):
+    def add_step(self, label, increment, color='blue', connect=False, linestyle='--', legend=None):
         """
         label: Label for the step
         increment: Energy change (final-initial) in eV
