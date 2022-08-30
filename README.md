@@ -59,6 +59,7 @@
    rde.plot(save=False, filename='TwoReactionMechanisms.png')
    ```
    The result is:
+   
    ![SingleReaction](https://github.com/hitarth64/ReactionEnergyDiagram/blob/main/examples/TwoReactionMechanisms.png)
 
 ### License:
