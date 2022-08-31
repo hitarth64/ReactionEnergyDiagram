@@ -49,11 +49,11 @@
    red.add_step(r'O$_2$', 2.308490,connect=True, linestyle='dotted')
    
    red.superimpose() # resets the internal counters and pointers
-   red.add_level('*',0)
-   red.add_level(None, -1.140617,connect=True, linestyle='dotted', color='red', legend=r'RuCrMnSbO$_2$')
-   red.add_level(None, 2.097738,connect=True, linestyle='dotted', color='red')
-   red.add_level(None, 1.792776,connect=True, linestyle='dotted', color='red')
-   red.add_level(None, 2.170103,connect=True, linestyle='dotted', color='red')
+   red.add_step('*',0)
+   red.add_step(None, -1.140617,connect=True, linestyle='dotted', color='red', legend=r'RuCrMnSbO$_2$')
+   red.add_step(None, 2.097738,connect=True, linestyle='dotted', color='red')
+   red.add_step(None, 1.792776,connect=True, linestyle='dotted', color='red')
+   red.add_step(None, 2.170103,connect=True, linestyle='dotted', color='red')
    
    # Save the figure as 'ReactionMechanism.png'
    rde.plot(save=False, filename='TwoReactionMechanisms.png')
